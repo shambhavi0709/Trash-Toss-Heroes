@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+   
+   
+    background: linear-gradient(135deg, #3494e6, #ec6ead);
+}
+
+.profile-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+#image{
+    max-width: 300px;
+    border-radius: 50px;
+}
+
+.profile-username {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-email, .profile-phone {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.edit-profile-button, .points-button {
+
+    background: linear-gradient(135deg, #3494e6, #ec6ead);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+
+.edit-profile-button:hover, .points-button:hover {
+    background-color: #1565C0;
+}

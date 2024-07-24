@@ -1,0 +1,289 @@
+/* navbar */
+.navbar-brand{
+    font-weight: bolder;
+    color:white!important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#top_nav{
+    background-color:green!important;
+    font-size: 25px;
+    padding-left: 50px;
+    padding: 1% 10%;
+
+}
+.navbar-nav .nav-link{
+    font-size: 20px;
+    font-style:calc();
+    padding-left: 40px !important;
+   
+}
+/* seach button of nav bar */
+#searchbox{
+    background-color:greenyellow ;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    border: 0;
+    left:48px;
+    box-shadow: 5px 10px 11px 0px #00000021 ;
+}
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+
+}
+#searchbox::placeholder{
+    color: white;
+
+}
+@media only screen and (max-width: 768){
+    #searchform{
+     margin-bottom: 30px ;
+     margin-top: 20px;
+     /* left isliye diya kiyuki ye serch bar small or medium pe right me tha or left mein kam ttha isliye */
+     left: -20px ;     
+    }
+}
+
+@media only screen and (max-width:500px ){
+    #top-nav{
+        padding: 0;
+    }
+}
+
+/* banner */
+#banner{
+    background-color:rgb(16, 80, 16);
+    padding-bottom: 20px ;
+}
+#bannertext h1{
+    color:white;
+    font-size: 70px;
+    margin-top: 100px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#bannertext p{
+    color: white;
+    font-size:20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#banner-btn-1{
+    background-color:rgb(16, 80, 16);
+    border: 3px solid white;
+    color:white;
+}
+#banner-btn-2{
+    color:white;
+    border:3px solid white;
+    margin-left: 15px;
+}
+#bannerimg{
+    
+    
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+    
+}
+/* ye dono h1 ko responsive banane ke liye for different device */
+/* @media only screen and (max-width:1300px{
+    #bannertext h1{
+        font-size:50px;
+    }
+    #banner{
+        padding-bottom: 70px;
+    }
+}
+
+ 
+@media only screen and (max-width:900px){
+    #bannertext h1{
+        font-size:50px;
+    }
+    #bannerimgs img{
+        padding-bottom: 70px;
+    }
+} */
+
+/* ab picture ko */
+
+/*  */
+#Services-text{
+    padding-top: 5px;
+    /* padding-bottom: 5px; */
+    margin-bottom: 50px;
+    color: white;
+    /* border: 2px solid blue; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#Services-text h1{
+   /* margin-bottom: %; */
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   /* border: 2px solid blue; */
+   color: white;
+   font-weight: bolder;
+   
+}
+#service-btn{
+    /* margin-top: 5%; */
+    color:white;
+    background-color:rgbrgb(95, 186, 234);
+    border: 5px solid white;
+    border-radius: 10px;
+}
+#service{
+    padding: 5%;
+}
+#Services-img{
+    height:400px ;
+    width: 400px;
+
+}
+#bannerNeeche{
+    /* border: 2px solid black; */
+    height: 500px;
+    background-color: rgb(95, 186, 234);
+}
+#imgId{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* border: 2px solid blue; */
+    position: relative;
+   padding-left: 100px;
+   margin-top: 40px !important;
+
+}
+
+@media only screen and (max-width:768){
+    #service-img{
+        padding-top:10%;
+    }
+}
+#counter-section{
+    /* border: 2px solid black; */
+    /* background-image: url("//Images//6414069_25929.jpg"); */
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(101, 101, 243)
+    ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.counter-icon{
+    font-size: 50px;
+    color:blue;
+}
+@media only screen and(max-width:500px){
+    .counter-icon{
+        font-size:50px;
+    }
+}
+
+/* blog */
+
+#blog{
+    padding-bottom: 70px;
+    padding-top: 70px;
+    background-color:skyblue;
+    
+}
+#blog-title{
+    font-size: 50px;
+    color:white;
+    font-weight:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 70px;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.article-details{
+    padding: 15px;
+    /* border: 1px solid rgb(185,185,185); */ 
+    /* border: 1px solid pink;
+    border-top: 0;
+    /* width: 400px; */
+}
+.article-date , .article-link{
+    color: #00bec9;
+
+}
+/* .nailExt{
+    width: 400px;
+    height: 400px;
+} */
+
+/* footer */
+#footer{
+    background-color:#055054 ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer-search-box{
+    background-color:#daac00;
+    color: white;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 10px;
+}
+#footer-submit-btn{
+    background-color:#00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 40px;
+}
+.social-icon{
+    font-size: 25px;
+    padding-left: 5px;
+}
+@media only screen and (max-width:1150px){
+    #footer-search-box{
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width:768px){
+    #footer-search-box{
+        max-width: 120px;
+    }
+}
+@media only screen and (max-width:768px){
+    #footer-search-box{
+        max-width: 200px;
+    }
+    #footer{
+        padding-top: 10px;
+    }
+    #footer h4{
+        padding-top: 50px;
+    }
+    
+
+}

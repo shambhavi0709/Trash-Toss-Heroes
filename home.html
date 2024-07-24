@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    
+   <!-- text white karne ke liye navbar-dark use karna hota hai  -->
+   <!-- active and textwhite are used to make text white and lit bold -->
+    <nav class="navbar navbar-expand-lg navbar-dark " id="top_nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            Gamify
+            <!-- navbar-->
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About Us</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active " href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <!-- poore form me edit karne ke liye karne ke liye search searchform banaya -->
+            <form class="d-flex" role="search" id="searchform">
+              <input class="form-control me-2" type="search" placeholder="Search...." aria-label="Search"id="searchbox" >
+              <button class="btn btn-outline-success" type="submit" id="searchbtn"><i class="bi bi-search"></i> </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="container-fluid">
+
+        <!-- login -->
+
+        <div class="row justify-content-center" id="banner">
+            <div class="col-md-6 col-11" id="bannertext">
+                <h1>Bin It to Win It: Earn Rewards & Reduce Waste with Green Gamify!<br>
+                </h1>
+                <p>We are a passionate team dedicated to empowering individuals to make a positive impact on the environment through the power of action and community. We believe that small, everyday choices can collectively create a significant difference, and we're here to support you on your journey.</p>
+                <button type="button" class="btn" id="banner-btn-1"><a class="text-white" href="login.html">login</a></button>
+                <button type="button" class="btn" id="banner-btn-2"><a class="text-white" href="registration.html">Sign up</a></button>
+            </div>
+            <!-- d-none : iska matlab picture hide ho gayi , d-md-block: iska matlab md ke baad picture show karni hai  -->
+            <div class="col-md-4 d-none d-md-block col-11 mt-5 mb-5" id="bannerimg">
+                <img src="images/WhatsApp_Image.png" class="img-fluid">
+            </div>
+        </div>
+        <div class="row justify-content-center " id="bannerNeeche">
+            <div class="col-md-5 col-11"id="Services-text">
+                <h1>Join the Green Movement,<br> One Action at a Time!
+                </h1>
+                <h4> Track your eco-efforts:</h4>
+                <p>Upload photos of your sustainable actions, from recycling and composting to using public transportation and conserving energy. Each action earns you points!</p>
+                <p>
+                  Climb the leaderboard: Compete with others in a friendly rivalry as you climb the ranks and strive to be the top eco-champion.<br>
+                  Stay motivated: Daily reminders and point deductions for missed actions keep you accountable and engaged.<br>
+                  Earn rewards: Top performers at the month's end are rewarded with exciting gift vouchers as a token of appreciation for their dedication.<br>
+                  Connect with others: Share your experiences and motivate each other through our supportive community features.
+                </p>
+                <button type="button" class="btn" id="service-btn"><a class="text-white" href="https://study.com/academy/lesson/environmental-awareness-definition-history-importance.html">know more</a></button>
+            </div>
+            <div class="col-md-5 d-none d-md-block col-11"id="imgId">
+                <img src="images/Dustbin.png" alt="" class="img-fluid" id="Services-img">
+            </div>
+        </div>
+        <!-- counter -->
+        <div class="row justify-content-center" id="counter-section"> 
+            <!-- counter-icon(ye class hai) -->
+            <div class="col-md-3 text-center text-center mt-5 mb-3 counter-icon">
+                <i class="bi bi-camera"></i>
+                <h3><a class="text-white"href="Camera.html">upload photo</a>
+                    </h3>
+            </div>
+            <div class="col-md-3 text-center text-center mt-5 mb-3 counter-icon">
+                <i class="bi bi-person-circle"><a class="text-white" href="profile.html"><h3>Profile
+                </h3></a></i>
+              
+            </div>
+            <div class="col-md-3 text-center text-center mt-5 mb-3  counter-icon">
+                <i class="bi bi-people-fill"></i>
+                <h3><a class=" text-white"href="leaderboard2.html">LeaderBoard</a></h3>
+
+            </div>
+            <div class="col-md-3 text-center text-center mt-5 mb-3  counter-icon">
+                <i class="bi bi-chat"></i>
+                <h3><a class="text-white" href="//mediafiles.botpress.cloud/2c8687d2-7edf-4a3a-a60c-6acbe26e8d11/webchat/bot.html">chatBot</a></h3>
+
+            </div>
+        </div>
+
+        <!-- blog -->
+
+        <div class="row justify-content-center" id="blog">
+          <div class="col-12 text-center">
+            <h1 id="blog-title">Green Horizons: Raising Environmental Consciousness</h1>
+            <p id="blog-p"> Explore our third page dedicated to spreading awareness about the environment. From informative articles to tips on eco-friendly living, we strive to empower users with knowledge. Join us in fostering a community committed to preserving our planet for future generations. Together, let's make every action count towards a sustainable future.</p>
+          </div>
+          <div class="col-md-3 col-11 mt-4">
+            <img src="Images/waterpollution.jpg" class="img-fluid nailExt" alt="">
+            <div class="article-details">
+              <h4 class="article-title">Deforestation</h4>
+              <p class="article-date">Deforestation</p>
+              <p class="article-desc"> Trees: The Lungs of Our Planet Every 6 seconds, an area the size of a football field is lost to deforestation. That's roughly 10 million trees disappearing daily, equivalent to cutting down the Amazon rainforest every 9 years.</p>
+              <p><a href="https://timesofindia.indiatimes.com/topic/deforestation/news" class="article-link">Read More+</a></p>
+            </div>
+          </div>
+          <div class="col-md-3 col-11 mt-4">
+            <img src="Images/pollution1.jpg" class="img-fluid nailExt" alt="">
+            <div class="article-details">
+              <h4 class="article-title">Climate Change</h4>
+              <p class="article-date">Climate-Change</p>
+              <p class="article-desc"> Feeling the Heat: Understanding Climate Change Global temperatures have risen by 1°C since pre-industrial times, impacting weather patterns, melting glaciers, and causing extreme weather events like floods, droughts, and wildfires..</p>
+              <p><a href="https://www.wionews.com/business-economy/climate-change-how-budget-2024-is-landmark-in-indias-journey-to-a-net-zero-economy-686932" class="article-link">Read More+</a></p>
+
+            </div>
+          </div>
+          <div class="col-md-3 col-11 mt-4">
+            <img src="Images/Truck.jpg" class="img-fluid nailExt" alt="">
+            <div class="article-details">
+              <h4 class="article-title">Water pollutoin</h4>
+              <p class="article-date">water-pullution</p>
+              <p class="article-desc"> Every Drop Counts: Protecting Our Water Resources  Did you know 80% of wastewater goes untreated globally? This polluted water ends up in our rivers, oceans, and even drinking water sources, endangering marine life and human health..</p>
+              <p><a href="https://www.genevaenvironmentnetwork.org/resources/updates/plastics-and-the-environment/" class="article-link">Read More+</a></p>
+            </div>
+          </div>
+          
+        </div>
+        <!-- footer -->
+        <div class="row justify-content-center text-white" id="footer">
+          <div class="col-md-3 col-11">
+            <h4></h4>
+            <a href="">History</a><br>
+            <a href="Ou">Our Team</a><br>
+            <a href="">Brand Guidelines</a><br>
+            <a href=""> Terms&Consition</a><br>
+            <a href="#">Privacy</a><br>
+            
+          </div>
+          <div class="col-md-2 col-11">
+            <h4>service</h4>
+            <a href="">History</a><br>
+            <a href="Ou">Our Team</a><br>
+            <a href="">Brand Guidelines</a><br>
+            <a href=""> Terms&Consition</a><br>
+            <a href="">Privacy</a><br>
+          </div>
+
+  
+          <div class="col-md-4 text-end col-11">
+            <h4>Title Here</h4>
+            <p> asperiores laboriosam dolor rerum.</p>
+            <form action=""id=footer-form >
+              <input type="Text" id="footer-search-box">
+              <button type="submit" id="footer-submit-btn"><i class="bi bi-cursor-fill"></i></button>
+            </form>
+            <i class="bi bi-instagram social-icon"></i>
+            <i class="bi bi-facebook social-icon"></i>
+            <i class="bi bi-whatsapp social-icon"></i>
+            <i class="bi bi-twitter-x social-icon"></i>
+          </div>
+        </div>   
+        <!-- container fluid end -->
+        
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
